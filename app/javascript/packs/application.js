@@ -4,10 +4,10 @@
 // that code so it'll be compiled.
 
 //= require jquery
-require("@rails/ujs").start()
+// require("@rails/ujs").start()
 // require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
+// require("@rails/activestorage").start()
+// require("channels")
 
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
@@ -17,7 +17,7 @@ import "jquery"
 import "popper.js"
 import "bootstrap"
 
-import "../stylesheets/application" 
+import "../stylesheets/application"
 
 Rails.start()
 Turbolinks.start()
